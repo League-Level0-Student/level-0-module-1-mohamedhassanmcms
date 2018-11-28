@@ -3,6 +3,8 @@ package ifs_ints_and_loops;
 //    Level 0
 
 
+import java.awt.im.spi.InputMethod;
+
 import javax.swing.JOptionPane;
 
 /**
@@ -17,7 +19,12 @@ import javax.swing.JOptionPane;
 public class SecretMessageBox {
 
 	// 0. Make a main method and put steps 1-5 inside it
-	
+	public static void main(String[] args) {
+		String password = "Yorugun";
+		String question=JOptionPane.showInputDialog(null, "Secrect message?");
+		String question1=JOptionPane.showInputDialog(null, "You can only see the secret message if you guess the password");
+	    if(input.equals(Yorugun)
+	    
 	// 1. Set a password in a String variable
 	
 	// 2. Using a pop-up, ask the first person for a secret message and store it in a variable
@@ -28,5 +35,5 @@ public class SecretMessageBox {
 	// 4. If their guess matches the password, show them the secret message
 
 	// 5. If the password does not match, pop-up "INTRUDER!!"
-
+	}
 }
